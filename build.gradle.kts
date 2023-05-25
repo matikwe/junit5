@@ -70,6 +70,6 @@ tasks.checkstyleNohttp {
 
 sonarqube {
 	properties {
-		property "sonar.projectKey", "junit5_25-2"
+		property("sonar.projectKey", "junit5_25-2")
 	}
 }
