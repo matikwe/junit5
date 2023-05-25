@@ -6,6 +6,7 @@ plugins {
 	id("junitbuild.dependency-update-check")
 	id("junitbuild.jacoco-aggregation-conventions")
 	id("junitbuild.temp-maven-repo")
+	id("org.sonarqube") version "3.4.0.2513"
 }
 
 description = "JUnit 5"
