@@ -67,3 +67,9 @@ nohttp {
 tasks.checkstyleNohttp {
 	notCompatibleWithConfigurationCache("https://github.com/spring-io/nohttp/issues/61")
 }
+
+sonarqube {
+	properties {
+		property "sonar.projectKey", "junit5_25-2"
+	}
+}
